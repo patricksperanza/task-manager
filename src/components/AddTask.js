@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-function AddTask({ onAdd }) {
+function AddTask({ onAdd, closeAdd }) {
   const [text, setText] = useState("")
   const [day, setDay] = useState("")
   const [reminder, setReminder] = useState(false)
